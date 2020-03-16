@@ -1,1 +1,143 @@
-Hello!
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html, body {
+    font-family: 'Muli', sans-serif;
+    background-color: #000000;
+}
+
+.container {
+    width: 1000px;
+    height: 700px;
+    margin: 2% auto;
+    position: relative;
+    overflow: hidden;
+    background: #000000;
+    box-shadow: 2px 18px 70px 0px #9D9D9D;
+}
+
+.circle-blue {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: -150px;
+    right: -100px;
+    background-color: #0a8df3;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.circle-center {
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 30px;
+    right: 110px;
+    background-color: #f70090;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.circle-center-text {
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 30px;
+    right: 110px;
+    background-color:transparent;
+    border-radius: 50%;
+    opacity: 1;
+    color: #fff;
+    padding: 12% 10%;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+hr {
+    width: 50%;
+    float: left;
+    background-color: #fff;
+    height: 1px;
+    border-color: #fff;
+}
+
+p {
+    margin-top: 5px;
+}
+
+.cta {
+    height: 80px;
+    width: 100px;
+    margin-right: 15%;
+    margin-top: 5%;
+    float: right;
+}
+
+button {
+    height: 80px;
+    width: 100px;
+    float: right;
+    cursor: pointer;
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    outline: none;
+}
+
+.btn {
+    width: 0;
+    height: 80px;
+    background-color: #fbfbfb;
+    transition: width 0.3s ease-in;
+}
+
+button:hover {
+    color: #000000;
+    transition: color 0.3s ease-in;
+}
+
+.cta:hover .btn {
+    width: 100px;
+    background-color: #fff;
+    color: #000000;
+}
+
+.circle-green {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    bottom: 20px;
+    left: -20px;
+    background-color: #3bb508;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="circle-blue"></div>
+  <div class="circle-center"></div>
+  <div class="circle-center-text">
+    <h1>Coming soon</h1>
+    <hr>
+    <div class="cta">
+    <a href="https://www.linkedin.com/in/marypokrasenko/">
+      <button>Connect</button>
+      </a>
+      <div class="btn"></div>
+    </div>
+  </div>
+  <div class="circle-green"></div>
+</div>
+
+</body>
+</html>
